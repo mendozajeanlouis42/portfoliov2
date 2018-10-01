@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+@font-face { font-family: BM Space; src: url('BMSPA.TTF'); } 
+
+body{
+  color: black;
+  background-color:black;
+}
+.adjleft{
+  margin: 10px;
+}
+
+
+.personafont{
+  font-family: BM Space;
+}
+
+.whitetexting{
+  color: white;
+}
+
+.deepskyblue{
+  color: DeepSkyBlue;
+}
+
+
+.cell{
+	border: 1px solid white;
+}
+
+.menubtn{
+  text-indent:30px;
+  line-height: 40px;
+
+  border-radius: 50%;
+}
+.menubtn:hover {
+  /*transition: .5s ease;*/
+  color: #00BFFF;
+  /*opacity: 0.5;*/
+}
+
+.menutext{
+  text-align: center;
+}
+
+.menutext:hover{
+  color: #00BFFF;
+}
+
+
+#firstpage{
+  background-image: url("../images/wallpaper.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#secondpage{
+  background-image: url("../images/wallpaper2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+
+}
+
+
+
+#thirdpage{
+  background-image: url("../images/wallpaper3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+
+
+/*Desktop styles*/
+@media only screen and (min-width: 961px)
+{
+.skillspecific{
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) 
+{
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.skillspecific{
+  transform: rotate(-45deg);
+  margin-left: 55px
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/*Tablet Styles*/
+@media only screen and (min-width: 321px) and (max-width: 768px)
+ {
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
